@@ -12,7 +12,7 @@ fn main() {
     // move 1 from 1 to 2
     // ";
 
-    let input = read_to_string("input.txt").expect("valid file");
+    let input = read_to_string("../input.txt").expect("valid file");
 
     let (boxes_str, commands_str) = input.split_once("\n\n").expect("two inputs");
 
@@ -50,7 +50,7 @@ fn main() {
             }
         });
     });
-    println!("box_stacks {:?}", box_stacks);
+    // println!("box_stacks {:?}", box_stacks);
 
     //___COMMANDS___
     commands_str.lines().for_each(|command_line| {

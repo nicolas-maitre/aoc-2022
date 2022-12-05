@@ -1,7 +1,7 @@
 use std::{collections::HashMap, fs::read_to_string};
 
 fn main() {
-    let str = read_to_string("input.txt").unwrap();
+    let str = read_to_string("../input.txt").unwrap();
 
     const GROUP_BY_COUNT: usize = 3;
 

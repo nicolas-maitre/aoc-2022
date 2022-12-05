@@ -19,7 +19,7 @@ const R_DRAW: &str = "Y";
 const R_WIN: &str = "Z";
 
 fn main() {
-    let str = read_to_string("startegy.txt").unwrap();
+    let str = read_to_string("../input.txt").unwrap();
     // let str = "A Y\nB X\nC Z";
 
     let strat = str.split("\n").map_while(|line| {

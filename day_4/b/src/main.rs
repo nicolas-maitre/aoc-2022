@@ -9,7 +9,7 @@ fn main() {
     // 2-6,4-8
     // ";
 
-    let input = read_to_string("input.txt").expect("file error");
+    let input = read_to_string("../input.txt").expect("file error");
 
     let pairs_contain_count = input.lines().map(|pair_str| {
         let assignment_strings = pair_str.split(",");

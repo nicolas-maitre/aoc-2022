@@ -8,7 +8,7 @@ fn main() {
     // ttgJtRGJQctTZtZT
     // CrZsJsPPZsGzwwsLwLmpwMDw
     // ";
-    let str = read_to_string("input.txt").unwrap();
+    let str = read_to_string("../input.txt").unwrap();
 
     //a:97 z:122 A:65 Z:90
 
